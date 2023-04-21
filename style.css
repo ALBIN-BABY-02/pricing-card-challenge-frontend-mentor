@@ -1,0 +1,116 @@
+html{
+  box-sizing: border-box;
+  
+}
+
+
+*,*:before,*:after {
+ box-sizing :inherit;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+h2 {
+  margin: 0;
+}
+body{
+  padding: 30px;
+  background-color:#e3e5e6;
+  font-family: 'Karla', sans-serif;
+}
+#card {
+  box-shadow: 5px -2px 8px 0px rgba(0,0,0,0.75);
+  font-size: 20px;
+  width: 700px;
+  height: 500px;
+  border: 3px ;
+  border-radius: 5px;
+  overflow: hidden ;
+  
+}
+p {
+  font-size: .65rem;
+}
+#top-section {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 100px;
+  height: 40%;
+  width: 100%;
+  
+  background-color: white;
+}
+#top-section h2 {
+  color:#2ec9c6;
+}
+
+#top-section h4 {
+ color: #c0df34;
+}
+#top-section p{
+  color:#bccdd6
+}
+#bottom-section {
+  color: white;
+  display: flex;
+  height: 60%;
+  width: 100%;
+  }
+
+#bottom-left-section {
+   padding-left: 40px;
+  height: 100%;
+  width: 50%;
+  background-color:#0aa19d;}
+
+#bottom-right-section {
+  padding-left: 40px;
+  height: 100%;
+  width: 50%;
+  background-color:#2ec9c6}
+
+
+li{
+  font-size : .7rem;
+}
+
+#bottom-left-section h4 {
+  padding-bottom : 30px;
+}
+#bottom-left-section p {
+  padding-bottom : 20px;
+}
+
+#bottom-left-section div {
+  
+  display : inline;
+}
+#when {
+font-size : 1.4rem}
+
+#where{
+  font-size: .7rem;
+  opacity:.8;
+}
+button{
+  font-size: .8rem;
+  color: white;
+  background-color:#c0df34;
+  width: 83%;
+  height: 15%;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #A9C42D;
+  transform: scale(1.02);
+}
+ul {
+  padding: 0;
+  list-style: none;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
