@@ -1,2 +1,3 @@
 function customAlert(){
-  alert('html and css by albinbtg');}
+  alert('html and css by albinbtg');
+}
